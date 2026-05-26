@@ -1,2 +1,4 @@
-/** Application layer placeholder for future use cases. */
+/**
+ * Camada de aplicação com casos de uso e portas da aplicação.
+ */
 package com.digu.notiontaskupdatercli.application;

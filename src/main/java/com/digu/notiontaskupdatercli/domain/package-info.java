@@ -1,2 +1,4 @@
-/** Domain layer placeholder for future business rules. */
+/**
+ * Camada de domínio com entidades e regras de negócio puras.
+ */
 package com.digu.notiontaskupdatercli.domain;
