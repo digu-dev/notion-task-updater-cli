@@ -16,6 +16,26 @@ mvn spring-boot:run
 
 A configuração inicial não exige banco ativo para startup local (PostgreSQL/Flyway permanecem no classpath para próximas stories).
 
+### Exemplos de comandos CLI
+
+```bash
+# shell interativo
+mvn spring-boot:run
+
+# comando simples
+mvn spring-boot:run -Dspring-boot.run.arguments="app:ping"
+
+# consulta por id
+mvn spring-boot:run -Dspring-boot.run.arguments="task:show --id 123e4567-e89b-12d3-a456-426614174000"
+```
+
+Comandos disponíveis:
+
+- `app:ping`
+- `task:create`
+- `task:list`
+- `task:show --id <uuid>`
+
 ## Arquitetura e organização de pacotes
 
 Base package: `com.digu.notiontaskupdatercli`
